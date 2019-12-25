@@ -55,10 +55,10 @@ if(isset($_POST['email'])) {
  
      
  
-    $email_message .= "First Name: ".clean_string($first_name)."\n";
-    $email_message .= "Last Name: ".clean_string($last_name)."\n";
+    $email_message .= "First Name: ".clean_string($fname)."\n";
+    $email_message .= "Last Name: ".clean_string($lname)."\n";
     $email_message .= "Email: ".clean_string($email_from)."\n";
-    $email_message .= "Mensagem: ".clean_string($comments)."\n";
+    $email_message .= "Mensagem: ".clean_string($message)."\n";
  
 // create email headers
 $headers = 'From: '.$email_from."\r\n".
