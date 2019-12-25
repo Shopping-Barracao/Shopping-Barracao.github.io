@@ -26,10 +26,10 @@ $email_headers = implode("\n", array("From: $fname", "Reply-To: $email", "Subjec
 if (!empty($fname) && !empty($lname) && !empty($email) && !empty($message)) {
     mail($para, $assunto, $corpo, $email_headers);
     $msg = "Sua mensagem foi enviada com sucesso.";
-    echo "<script>alert('$msg');window.location.assign('https://shopping-barracao.github.io/');</script>";
+    echo "<script>alert('$msg');window.location.assign('https://shopping-barracao.github.io/empreendimento.html');</script>";
 } else {
     $msg = "Erro ao enviar a mensagem.";
-    echo "<script>alert('$msg');window.location.assign('https://shopping-barracao.github.io/');</script>";
+    echo "<script>alert('$msg');window.location.assign('https://shopping-barracao.github.io/empreendimento.html');</script>";
 }
 
 ?>
