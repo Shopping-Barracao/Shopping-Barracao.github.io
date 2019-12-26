@@ -85,6 +85,9 @@ h1, h2, h3, h4, h5,
 .color-icon{
   color: #d16d20;
 }
+.top-bar{
+
+}
 .line-height-1 {
   line-height: 1 !important; }
 
@@ -117,6 +120,12 @@ h1, h2, h3, h4, h5,
   @media (min-width: 768px) {
     .site-section-heading {
       font-size: 3rem; } }
+
+  @media screen and (min-width: 310px) and (max-device-width: 768px) {
+        .top-bar{
+          display: none;
+        }
+    }
 
 .border-top {
   border-top: 1px solid #edf0f5 !important; }
