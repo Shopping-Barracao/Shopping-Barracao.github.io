@@ -132,6 +132,14 @@ h1, h2, h3, h4, h5,
       }
   }
 
+  @media screen and (min-width: 310px) and (max-device-width: 768px) {
+    .site-blocks-cover{
+      background-position: right !important;
+    }
+  }
+
+
+
 
 .border-top {
   border-top: 1px solid #edf0f5 !important; }
