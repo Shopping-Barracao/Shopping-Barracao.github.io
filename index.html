@@ -240,10 +240,9 @@
 
             
 
-            <form action="http://formspree.io/laizgamalira@gmail.com" method="POST" class="p-5 bg-white">
-              
+            <form action="https://api.staticforms.xyz/submit" method="post" class="p-5 bg-white">
+              <input type="hidden" name="accessKey" value="e44fc5d0-0b52-4cb1-9f79-fefc3800d89c">
               <h2 class="h4 text-black mb-5">Fale conosco!</h2> 
-
               <div class="row form-group">
                 <div class="col-md-6 mb-3 mb-md-0">
                   <label class="text-black" for="nome">Nome</label>
@@ -269,6 +268,12 @@
                   <textarea name="mensagem" id="mensagem" cols="30" rows="7" class="form-control" placeholder="O que deseja nos dizer?"></textarea>
                 </div>
               </div>
+
+              <!-- If you want replyTo to be set to specific email -->
+              <input type="text" name="replyTo" value="laizgamalira@gmail.com"> <!-- Optional -->
+        
+              <!-- If you want form to redirect to a specific url after submission -->
+              <input type="hidden" name="redirectTo" value="https://shopping-barracao.github.io/#contato">
 
               <div class="row form-group">
                 <div class="col-md-12">
